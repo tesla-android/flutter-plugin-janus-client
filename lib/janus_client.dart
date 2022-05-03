@@ -21,6 +21,8 @@ part './JanusPlugin.dart';
 
 part './utils.dart';
 
+part './WrapperPlugins/JanusUstreamerPlugin.dart';
+
 part './WrapperPlugins/JanusVideoCallPlugin.dart';
 
 part './WrapperPlugins/JanusSipPlugin.dart';

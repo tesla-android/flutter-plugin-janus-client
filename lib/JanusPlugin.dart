@@ -8,6 +8,7 @@ abstract class JanusPlugins {
   static const TEXT_ROOM = "janus.plugin.textroom";
   static const ECHO_TEST = "janus.plugin.echotest";
   static const SIP = "janus.plugin.sip";
+  static const USTREAMER = "janus.plugin.ustreamer";
 }
 
 class JanusPlugin {

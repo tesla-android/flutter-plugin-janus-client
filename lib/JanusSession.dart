@@ -73,6 +73,8 @@ class JanusSession {
       plugin = JanusEchoTestPlugin(transport: _transport, context: _context, handleId: handleId, session: this);
     } else if (T == JanusSipPlugin) {
       plugin = JanusSipPlugin(transport: _transport, context: _context, handleId: handleId, session: this);
+    } else if (T == JanusUstreamerPlugin) {
+      plugin = JanusUstreamerPlugin(transport: _transport, context: _context, handleId: handleId, session: this);
     } else {
       throw UnimplementedError('''This Plugin is not defined kindly refer to Janus Server Docs
       make sure you specify the type of plugin you want to attach like session.attach<JanusVideoRoomPlugin>();
